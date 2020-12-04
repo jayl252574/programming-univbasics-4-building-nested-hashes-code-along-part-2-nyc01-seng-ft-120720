@@ -1,5 +1,5 @@
 def update_status
-   epic_tragedy = {
+   epic_tragedy = [:montague][:hero][:status] = "dead"
       :montague => {
          :patriarch => {name: "Lord Montague", age: "53"},
          :matriarch => {name: "Lady Montague", age: "54"},
@@ -9,6 +9,7 @@ def update_status
             {name: "Mercutio", age: "18", attitude: "hot-headed"}
          ]
       },
+   epic_tragedy[:additional_characters] = []
       :capulet => {
          :patriarch => {name: "Lord Capulet", age: "50"},
          :matriarch => {name: "Lady Capulet", age: "51"},
